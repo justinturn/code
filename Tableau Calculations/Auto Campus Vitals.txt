@@ -1,0 +1,9 @@
+//1. Create First HH Giving Date
+{FIXED [HOUSEHOLD_ID]: MIN([received_date])}
+
+//references the houshold giving date calculation  and uses a series of date references
+//to if the date is between 8-14 days ago, which is last complete giving cycle
+
+[First HH Giving Date] >= DATEADD('day',-14,DATETRUNC('week', TODAY()))
+AND
+[First HH Giving Date] <=DATEADD('day',-8,DATETRUNC('week', TODAY()))

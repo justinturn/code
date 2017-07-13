@@ -1,0 +1,13 @@
+IF [Month] = 'January' then 1
+elseif [Month] = 'February' then 2
+elseif [Month] = 'March' then 3
+elseif [Month] = 'April' then 4
+elseif [Month] = 'May' then 5
+elseif [Month] = 'June' then 6
+elseif [Month] = 'July' then 7
+elseif [Month] = 'August' then 8
+elseif [Month] = 'September' then 9
+elseif [Month] = 'October' then 10
+elseif [Month] = 'November' then 11
+elseif [Month] = 'December' then 12
+END

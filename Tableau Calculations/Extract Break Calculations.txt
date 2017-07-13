@@ -1,0 +1,4 @@
+Case sensitive once an extract is created. 
+
+CTRL+'A' to select all
+CTL+SHIFT+'U' to make uppercase (atleast in notepad ++)

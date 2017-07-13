@@ -1,0 +1,1 @@
+ALTER TABLE dbo.groups16 ALTER COLUMN [Date] DATE not null

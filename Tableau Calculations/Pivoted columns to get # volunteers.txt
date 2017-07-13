@@ -1,0 +1,12 @@
+IF [Pivot Field Names] = 'Select campus #11' THEN [Number of volunteers 11]
+IF [Pivot Field Names] = 'Select campus #10' THEN [Number of volunteers 10]
+IF [Pivot Field Names] = 'Select campus #9' THEN [Number of volunteers 9]
+IF [Pivot Field Names] = 'Select campus #8' THEN [Number of volunteers 8]
+IF [Pivot Field Names] = 'Select campus #7' THEN [Number of volunteers 7]
+IF [Pivot Field Names] = 'Select campus #6' THEN [Number of volunteers 6]
+IF [Pivot Field Names] = 'Select campus #5' THEN [Number of volunteers 5]
+IF [Pivot Field Names] = 'Select campus #4' THEN [Number of volunteers 4]
+IF [Pivot Field Names] = 'Select campus #3' THEN [Number of volunteers 3]
+IF [Pivot Field Names] = 'Select campus #2' THEN [Number of volunteers 2]
+IF [Pivot Field Names] = 'Select campus' THEN [Number of volunteers]
+

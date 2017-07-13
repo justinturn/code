@@ -1,0 +1,8 @@
+' Assign to a excel button to delete data from all worksheets with Sheet in the first five char
+Sub test()
+Dim ws As Worksheet
+For Each ws In ThisWorkbook.Worksheets
+    If Left(ws.Name, 4) = "Week" Then ws.Cells.ClearContents
+Next ws
+
+End Sub

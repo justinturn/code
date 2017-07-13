@@ -1,0 +1,15 @@
+// When there are nulls, you'll need to wrap the values
+//in an IIF isnull to bypass. This adds a comma to separate campuses
+//that are laid out in columns (multiple campuses to a record)
+
+IIF(ISNULL([Select campus]),"",[Select campus]) + ',' 
++IIF(ISNULL([Select campus #2]),"",[Select campus #2]) + ','
++IIF(ISNULL([Select campus #3]),"",[Select campus #3]) + ','
++IIF(ISNULL([Select campus #4]),"",[Select campus #4]) + ','
++IIF(ISNULL([Select campus #5]),"",[Select campus #5]) + ','
++IIF(ISNULL([Select campus #6]),"",[Select campus #6]) + ','
++IIF(ISNULL([Select campus #7]),"",[Select campus #7]) + ','
++IIF(ISNULL([Select campus #8]),"",[Select campus #8]) + ','
++IIF(ISNULL([Select campus #9]),"",[Select campus #9]) + ','
++IIF(ISNULL([Select campus #10]),"",[Select campus #10]) + ','
++IIF(ISNULL([Select campus #11]),"",[Select campus #11])

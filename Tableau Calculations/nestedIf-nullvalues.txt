@@ -1,0 +1,4 @@
+//Added the nested if function to treat as a zero if the record is Null
+//Used in LGLM 
+IF NOT ISNULL([Short Term Group]) 
+THEN(IF [Short Term Group]=' Yes' THEN [Number of Records] END) ELSE 0 END
